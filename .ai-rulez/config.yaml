@@ -1,0 +1,38 @@
+# AI-Rulez V3 Configuration
+# Directory-based configuration with domain scoping
+# Documentation: https://github.com/Goldziher/ai-rulez
+
+# Schema reference for IDE validation
+$schema: https://raw.githubusercontent.com/Goldziher/ai-rulez/main/schema/ai-rules-v3.schema.json
+
+# Version (required)
+version: "3.0"
+
+# Project name (required)
+name: "career-catalyst-os"
+
+# Optional description
+# description: "AI-powered development governance for career-catalyst-os"
+
+# Presets: built-in tools or custom outputs
+# Built-in presets: claude, cursor, windsurf, copilot, gemini, cline, continue-dev, junie
+presets:
+  - claude
+  - gemini
+
+
+# Default profile when none specified
+default: full
+
+# Named profiles for different team needs
+profiles:
+  full: []  
+
+# Named profiles (domain combinations)
+# profiles:
+#   full: [backend, frontend, qa]
+#   backend: [backend]
+#   frontend: [frontend]
+
+# Gitignore management
+# gitignore: true
