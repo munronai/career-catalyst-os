@@ -61,14 +61,15 @@ job description text directly.
  
 Execute the research phase, adapting depth based on whether a "Deep Dive" was requested and the scale of the organization.
  
-### Standard Research (3–5 searches)
-Cover fundamentals:
-- **Fundamentals:** Product, customers, business model, and stage (startup/scale-up/enterprise).
-- **Recent News:** Funding, launches, or leadership changes.
-- **Product & Tech:** High-level teardown of the product surface and known tech stack.
+### Standard Research (5–7 searches)
+Cover fundamentals with a focus on **Strategic Context**:
+- **Business Model & Scale:** Product, customers, pricing, and revenue/growth signals (ARR, funding, or public filings).
+- **Competitive Dynamics:** Who are the incumbents vs. challengers? What is the company's "moat"?
+- **Product Velocity:** Recent launches, feature ship-rate, and current "Product Voice" from leadership.
+- **AI Signal Detection:** Identify if the role/company has an active AI roadmap, agentic surface, or if AI is mentioned in the JD.
 - **Culture:** Glassdoor/Blind signals and stated values.
- 
-### Deep Dive Research (8–12 searches)
+
+### Deep Dive Research (10–14 searches)
 If requested, expand search to cover:
 - **Leadership & Vision (Scale-Aware):**
   - *Startups/Scale-ups (<500 employees):* Focus on Founders/C-Suite personal "Product Voice" (podcasts, talks, blogs).
@@ -125,8 +126,36 @@ For each proposal, use this structure:
 ```
  
 ---
- 
-## Step 5 — Interview question sets
+
+## Step 5 — Product Sense Deep Dive (The 5 Thinking Shifts)
+
+Generate a "Hero Answer" to a high-probability product sense question (e.g., "How would you grow X?" or "Design Y for the company"). If an AI Signal was detected in Step 2, use the **AI Overlay** version. Otherwise, apply the shifts to the **Core Product**.
+
+### Shift 1: Strategic Context (2-3 min opening)
+- Write an opinionated opening that connects the question to the company's specific strategic context (Revenue, Competitive dynamics, and why this matters *now*).
+
+### Shift 2: Relationship Segmentation
+- Segment users by their relationship to the **Core Capability** (e.g., "Power Users" vs. "Casual" is a 6/10; segmenting by "Trust Level" or "Relationship to AI Output" is a 10/10).
+
+### Shift 3: Architectural Distinction (Model/Core vs. Application)
+- Specify which parts of the solution require **Core/Model Layer** changes (longer dev cycle, high risk) vs. **Application Layer** changes (faster, product-owned). 
+
+### Shift 4: Trust-by-Design
+- Build safety, governance, and reliability into each individual solution—not as a section at the end. (e.g., "Verification loops for automated actions").
+
+### Shift 5: Growth Flywheels (The "Math")
+- Defend the proposal with specific levers: Activation, Retention, or Word-of-Mouth flywheels. Avoid hand-waving "engagement" metrics.
+
+---
+
+## Step 6 — Candidate Strategic Bridge
+
+Generate **5 high-signal bullet points** that explicitly bridge the candidate's profile (`profile.md`) to the strategic challenges identified in the "5 Shifts".
+- Focus on how their background in **API Governance, ISO 20022 standards, and Platform Lifecycle** makes them uniquely qualified to solve the "Shift 3" and "Shift 4" problems for this specific role.
+
+---
+
+## Step 7 — Interview question sets
  
 Generate **3 to 5 high-signal questions** for each likely interviewer type (Hiring Manager, Engineering Lead, Product Leadership). These must be tailored to the specific findings from Step 2.
  
@@ -135,7 +164,7 @@ For each question, add a one-line coaching note in _italics_ beneath it:
  
 ---
  
-## Step 6 — Save and present
+## Step 8 — Save and present
  
 Save the full output as a markdown file.
  
