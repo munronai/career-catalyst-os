@@ -4,7 +4,7 @@
 
 **Status:** Personal-productivity tool, published as a reference implementation and learning-in-public artefact. Not a product, not a service, not maintained against an SLA.
 
-**Author:** Neil [surname]. The skill is published under the author's personal GitHub account as part of an ongoing exploration of AI Product Management methodology, regulatory frameworks (EU AI Act, ISO 42001), and the practical use of Claude Code for PM workflows.
+**Author:** Neil Munro. The skill is published under the author's personal GitHub account as part of an ongoing exploration of AI Product Management methodology, regulatory frameworks (EU AI Act, ISO 42001), and the practical use of Claude Code for PM workflows.
 
 ---
 
@@ -66,7 +66,7 @@ The skill's outputs are AI-generated and are not authoritative. Match/gap analys
 
 ## Versions
 
-This repo uses semantic versioning. The intended-use statement applies to all tagged versions and is binding from publication of the relevant version. Forks and modifications inherit the original intended-use statement unless the fork explicitly and substantially changes it (in which case, see Article 25(1)(c) — the modifier becomes the provider for that derivative work).
+The intended-use statement applies to all versions and is binding from publication of the relevant version. Forks and modifications inherit the original intended-use statement unless the fork explicitly and substantially changes it (in which case, see Article 25(1)(c) — the modifier becomes the provider for that derivative work).
 
 ---
 
